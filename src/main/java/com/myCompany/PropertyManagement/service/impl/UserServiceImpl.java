@@ -1,6 +1,5 @@
 package com.myCompany.PropertyManagement.service.impl;
 
-
 import com.myCompany.PropertyManagement.converter.UserConverter;
 import com.myCompany.PropertyManagement.dto.UserDTO;
 import com.myCompany.PropertyManagement.entity.UserEntity;
@@ -8,6 +7,8 @@ import com.myCompany.PropertyManagement.repository.UserRepository;
 import com.myCompany.PropertyManagement.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.Optional;
 
 @Service
 public class UserServiceImpl implements UserService {
@@ -24,13 +25,19 @@ public class UserServiceImpl implements UserService {
         UserEntity userEntity = userConverter.convertDTOtoEntity(userDTO);
 
         userEntity = userRepository.save(userEntity);
-        userDTO = userConverter.convertEntitytoDYO(userEntity);
+        userDTO = userConverter.convertEntityToDTO(userEntity);
 
         return userDTO;
     }
 
     @Override
     public UserDTO login(String email, String password) {
-        return null;
+
+        Optional<UserEntity> optionalUserEntity = userRepository.findByOwnerEmailAndPassword(email, password);
+        UserDTO userDTO = null;
+        if(optionalUserEntity.isPresent()){
+            userDTO = userConverter.convertEntityToDTO(optionalUserEntity.get());
+        }
+        return userDTO;
     }
 }
