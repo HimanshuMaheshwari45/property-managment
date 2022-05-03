@@ -15,7 +15,7 @@ public class PropertyEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    private Long id;
     @Column(name = "PROPERTY_TITLE", nullable = false)
     private String title;
     private String description;
@@ -24,4 +24,7 @@ public class PropertyEntity {
     private String ownerEmail;
     private Double price;
     private String address;
+    @ManyToOne(fetch = FetchType.LAZY) //It will not fetch user data while fetching the property
+    @JoinColumn(name = "USER_ID", nullable = false)
+    private UserEntity userEntity;
 }
