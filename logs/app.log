@@ -22,7 +22,7 @@ ERROR in ch.qos.logback.core.joran.spi.Interpreter@34:18 - no applicable action 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
 ERROR in ch.qos.logback.core.joran.spi.Interpreter@31:17 - no applicable action for [dependency], current ElementPath  is [[configuration][dependency]]
 ERROR in ch.qos.logback.core.joran.spi.Interpreter@32:18 - no applicable action for [groupId], current ElementPath  is [[configuration][dependency][groupId]]
@@ -59,7 +59,7 @@ ERROR in ch.qos.logback.core.joran.spi.Interpreter@34:18 - no applicable action 
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
 ERROR in ch.qos.logback.core.joran.spi.Interpreter@31:17 - no applicable action for [dependency], current ElementPath  is [[configuration][dependency]]
 ERROR in ch.qos.logback.core.joran.spi.Interpreter@32:18 - no applicable action for [groupId], current ElementPath  is [[configuration][dependency][groupId]]
@@ -73,8 +73,8 @@ ERROR in ch.qos.logback.core.joran.spi.Interpreter@34:18 - no applicable action 
 	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
 	... 18 common frames omitted
 2022-05-02 12:30:45,960 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
-2022-05-02 12:30:45,970 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 9752 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
-2022-05-02 12:30:45,972 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] The following 1 profile is active: "dev"
+2022-05-02 12:30:45,970 INFO PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 9752 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
+2022-05-02 12:30:45,972 INFO PropertyManagementApplication [main] The following 1 profile is active: "dev"
 2022-05-02 12:30:46,841 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2022-05-02 12:30:46,900 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
 2022-05-02 12:30:47,676 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
@@ -142,7 +142,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -225,7 +225,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -309,7 +309,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -365,7 +365,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
@@ -443,8 +443,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
 	... 51 common frames omitted
 2022-05-02 12:31:16,730 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
-2022-05-02 12:31:16,742 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 7604 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
-2022-05-02 12:31:16,743 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] The following 1 profile is active: "dev"
+2022-05-02 12:31:16,742 INFO PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 7604 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
+2022-05-02 12:31:16,743 INFO PropertyManagementApplication [main] The following 1 profile is active: "dev"
 2022-05-02 12:31:17,527 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2022-05-02 12:31:17,583 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
 2022-05-02 12:31:18,249 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
@@ -512,7 +512,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -595,7 +595,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -679,7 +679,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -735,7 +735,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
@@ -812,9 +812,9 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:156)
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
 	... 51 common frames omitted
-2022-05-02 12:34:06,174 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 24332 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
+2022-05-02 12:34:06,174 INFO PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 24332 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
 2022-05-02 12:34:06,165 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
-2022-05-02 12:34:06,183 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] The following 1 profile is active: "dev"
+2022-05-02 12:34:06,183 INFO PropertyManagementApplication [main] The following 1 profile is active: "dev"
 2022-05-02 12:34:06,915 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2022-05-02 12:34:06,970 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
 2022-05-02 12:34:07,658 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
@@ -882,7 +882,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -965,7 +965,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -1049,7 +1049,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -1105,7 +1105,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
@@ -1183,8 +1183,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
 	... 51 common frames omitted
 2022-05-02 12:35:57,590 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
-2022-05-02 12:35:57,591 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 31988 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
-2022-05-02 12:35:57,598 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] The following 1 profile is active: "dev"
+2022-05-02 12:35:57,591 INFO PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 31988 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
+2022-05-02 12:35:57,598 INFO PropertyManagementApplication [main] The following 1 profile is active: "dev"
 2022-05-02 12:35:58,359 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2022-05-02 12:35:58,424 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
 2022-05-02 12:35:59,105 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
@@ -1252,7 +1252,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -1335,7 +1335,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -1419,7 +1419,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -1475,7 +1475,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
@@ -1553,8 +1553,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
 	... 51 common frames omitted
 2022-05-02 12:37:34,129 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
-2022-05-02 12:37:34,133 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 2560 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
-2022-05-02 12:37:34,133 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] The following 1 profile is active: "dev"
+2022-05-02 12:37:34,133 INFO PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 2560 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
+2022-05-02 12:37:34,133 INFO PropertyManagementApplication [main] The following 1 profile is active: "dev"
 2022-05-02 12:37:34,895 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2022-05-02 12:37:34,938 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
 2022-05-02 12:37:35,626 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
@@ -1622,7 +1622,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -1705,7 +1705,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -1789,7 +1789,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -1845,7 +1845,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
@@ -1923,8 +1923,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
 	... 51 common frames omitted
 2022-05-02 12:39:20,233 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
-2022-05-02 12:39:20,253 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 20316 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
-2022-05-02 12:39:20,255 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] The following 1 profile is active: "dev"
+2022-05-02 12:39:20,253 INFO PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 20316 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
+2022-05-02 12:39:20,255 INFO PropertyManagementApplication [main] The following 1 profile is active: "dev"
 2022-05-02 12:39:21,047 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2022-05-02 12:39:21,110 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
 2022-05-02 12:39:21,831 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
@@ -1992,7 +1992,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -2075,7 +2075,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -2159,7 +2159,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -2215,7 +2215,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
@@ -2293,8 +2293,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
 	... 51 common frames omitted
 2022-05-02 12:42:13,866 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
-2022-05-02 12:42:13,898 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 17456 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
-2022-05-02 12:42:13,899 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] The following 1 profile is active: "dev"
+2022-05-02 12:42:13,898 INFO PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 17456 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
+2022-05-02 12:42:13,899 INFO PropertyManagementApplication [main] The following 1 profile is active: "dev"
 2022-05-02 12:42:14,691 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2022-05-02 12:42:14,734 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
 2022-05-02 12:42:15,432 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
@@ -2362,7 +2362,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -2445,7 +2445,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -2529,7 +2529,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -2585,7 +2585,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
@@ -2663,8 +2663,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
 	... 51 common frames omitted
 2022-05-02 12:45:59,883 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
-2022-05-02 12:45:59,900 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 10524 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
-2022-05-02 12:45:59,907 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] The following 1 profile is active: "dev"
+2022-05-02 12:45:59,900 INFO PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 10524 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
+2022-05-02 12:45:59,907 INFO PropertyManagementApplication [main] The following 1 profile is active: "dev"
 2022-05-02 12:46:00,685 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2022-05-02 12:46:00,749 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
 2022-05-02 12:46:01,442 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
@@ -2732,7 +2732,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -2815,7 +2815,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -2899,7 +2899,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -2955,7 +2955,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
@@ -3033,8 +3033,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
 	... 51 common frames omitted
 2022-05-02 12:47:17,358 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
-2022-05-02 12:47:17,364 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 7144 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
-2022-05-02 12:47:17,366 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] The following 1 profile is active: "dev"
+2022-05-02 12:47:17,364 INFO PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 7144 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
+2022-05-02 12:47:17,366 INFO PropertyManagementApplication [main] The following 1 profile is active: "dev"
 2022-05-02 12:47:18,164 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2022-05-02 12:47:18,214 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
 2022-05-02 12:47:18,901 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
@@ -3102,7 +3102,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -3185,7 +3185,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -3216,8 +3216,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 2022-05-02 12:47:24,534 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
 2022-05-02 12:47:24,972 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
 2022-05-02 12:47:34,747 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
-2022-05-02 12:47:34,747 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 2720 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
-2022-05-02 12:47:34,750 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] The following 1 profile is active: "dev"
+2022-05-02 12:47:34,747 INFO PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 2720 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
+2022-05-02 12:47:34,750 INFO PropertyManagementApplication [main] The following 1 profile is active: "dev"
 2022-05-02 12:47:35,530 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2022-05-02 12:47:35,578 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
 2022-05-02 12:47:36,251 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
@@ -3231,8 +3231,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 2022-05-02 12:47:36,698 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
 2022-05-02 12:47:36,788 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
 2022-05-02 12:47:56,389 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
-2022-05-02 12:47:56,421 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 15604 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
-2022-05-02 12:47:56,422 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] The following 1 profile is active: "dev"
+2022-05-02 12:47:56,421 INFO PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 15604 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
+2022-05-02 12:47:56,422 INFO PropertyManagementApplication [main] The following 1 profile is active: "dev"
 2022-05-02 12:47:57,219 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2022-05-02 12:47:57,269 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 41 ms. Found 2 JPA repository interfaces.
 2022-05-02 12:47:57,977 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
@@ -3300,7 +3300,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -3383,7 +3383,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -3467,7 +3467,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -3523,7 +3523,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
@@ -3601,8 +3601,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
 	... 51 common frames omitted
 2022-05-02 12:49:20,591 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
-2022-05-02 12:49:20,605 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 28344 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
-2022-05-02 12:49:20,608 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] The following 1 profile is active: "dev"
+2022-05-02 12:49:20,605 INFO PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 28344 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
+2022-05-02 12:49:20,608 INFO PropertyManagementApplication [main] The following 1 profile is active: "dev"
 2022-05-02 12:49:21,413 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2022-05-02 12:49:21,462 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
 2022-05-02 12:49:22,219 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
@@ -3670,7 +3670,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -3753,7 +3753,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -3837,7 +3837,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -3893,7 +3893,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
@@ -3971,8 +3971,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
 	... 51 common frames omitted
 2022-05-02 12:51:09,828 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
-2022-05-02 12:51:09,843 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 32676 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
-2022-05-02 12:51:09,848 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] The following 1 profile is active: "dev"
+2022-05-02 12:51:09,843 INFO PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 32676 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
+2022-05-02 12:51:09,848 INFO PropertyManagementApplication [main] The following 1 profile is active: "dev"
 2022-05-02 12:51:10,612 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2022-05-02 12:51:10,660 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
 2022-05-02 12:51:11,359 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
@@ -4040,7 +4040,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -4123,7 +4123,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -4207,7 +4207,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -4263,7 +4263,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
@@ -4341,8 +4341,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
 	... 51 common frames omitted
 2022-05-02 12:52:58,581 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
-2022-05-02 12:52:58,598 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 5316 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
-2022-05-02 12:52:58,600 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] The following 1 profile is active: "dev"
+2022-05-02 12:52:58,598 INFO PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 5316 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
+2022-05-02 12:52:58,600 INFO PropertyManagementApplication [main] The following 1 profile is active: "dev"
 2022-05-02 12:52:59,340 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2022-05-02 12:52:59,384 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
 2022-05-02 12:53:00,135 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
@@ -4410,7 +4410,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -4493,7 +4493,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -4577,7 +4577,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -4633,7 +4633,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
-	at com.myCompany.PropertyManagement.PropertyManagementApplication.main(PropertyManagementApplication.java:10)
+	at PropertyManagementApplication.main(PropertyManagementApplication.java:10)
 Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
@@ -4711,8 +4711,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
 	... 51 common frames omitted
 2022-05-02 13:04:29,536 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.2.Final
-2022-05-02 13:04:29,546 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 24264 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
-2022-05-02 13:04:29,551 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] The following 1 profile is active: "dev"
+2022-05-02 13:04:29,546 INFO PropertyManagementApplication [main] Starting PropertyManagementApplication using Java 11.0.10 on DM with PID 24264 (C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management\target\classes started by deepa in C:\Users\deepa\Desktop\SpringBoot_Java_Project\Property-Management\Property-Management)
+2022-05-02 13:04:29,551 INFO PropertyManagementApplication [main] The following 1 profile is active: "dev"
 2022-05-02 13:04:30,385 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2022-05-02 13:04:30,436 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
 2022-05-02 13:04:31,130 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
@@ -4732,14 +4732,14 @@ Caused by: java.net.ConnectException: Connection refused: connect
 2022-05-02 13:04:32,683 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2022-05-02 13:04:32,983 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
 2022-05-02 13:04:33,003 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
-2022-05-02 13:04:33,009 INFO com.myCompany.PropertyManagement.PropertyManagementApplication [main] Started PropertyManagementApplication in 3.93 seconds (JVM running for 4.529)
+2022-05-02 13:04:33,009 INFO PropertyManagementApplication [main] Started PropertyManagementApplication in 3.93 seconds (JVM running for 4.529)
 2022-05-02 13:04:36,545 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-05-02 13:04:36,545 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
 2022-05-02 13:04:36,546 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
-2022-05-02 13:04:36,706 INFO com.myCompany.PropertyManagement.exception.CustomExceptionHandler [http-nio-8080-exec-1] Inside field validation: ownerEmail - owner email cannot be empty
-2022-05-02 13:04:36,707 INFO com.myCompany.PropertyManagement.exception.CustomExceptionHandler [http-nio-8080-exec-1] Inside field validation: password - password cannot be null
-2022-05-02 13:04:36,707 INFO com.myCompany.PropertyManagement.exception.CustomExceptionHandler [http-nio-8080-exec-1] Inside field validation: ownerEmail - owner email is mandatory
-2022-05-02 13:04:36,707 INFO com.myCompany.PropertyManagement.exception.CustomExceptionHandler [http-nio-8080-exec-1] Inside field validation: password - password cannot be empty
-2022-05-02 13:06:10,144 INFO com.myCompany.PropertyManagement.exception.CustomExceptionHandler [http-nio-8080-exec-4] Inside field validation: ownerEmail - owner email cannot be empty
-2022-05-02 13:06:10,144 INFO com.myCompany.PropertyManagement.exception.CustomExceptionHandler [http-nio-8080-exec-4] Inside field validation: ownerEmail - owner email is mandatory
-2022-05-02 13:06:10,144 INFO com.myCompany.PropertyManagement.exception.CustomExceptionHandler [http-nio-8080-exec-4] Inside field validation: password - password cannot be empty
+2022-05-02 13:04:36,706 INFO CustomExceptionHandler [http-nio-8080-exec-1] Inside field validation: ownerEmail - owner email cannot be empty
+2022-05-02 13:04:36,707 INFO CustomExceptionHandler [http-nio-8080-exec-1] Inside field validation: password - password cannot be null
+2022-05-02 13:04:36,707 INFO CustomExceptionHandler [http-nio-8080-exec-1] Inside field validation: ownerEmail - owner email is mandatory
+2022-05-02 13:04:36,707 INFO CustomExceptionHandler [http-nio-8080-exec-1] Inside field validation: password - password cannot be empty
+2022-05-02 13:06:10,144 INFO CustomExceptionHandler [http-nio-8080-exec-4] Inside field validation: ownerEmail - owner email cannot be empty
+2022-05-02 13:06:10,144 INFO CustomExceptionHandler [http-nio-8080-exec-4] Inside field validation: ownerEmail - owner email is mandatory
+2022-05-02 13:06:10,144 INFO CustomExceptionHandler [http-nio-8080-exec-4] Inside field validation: password - password cannot be empty
